@@ -1,4 +1,4 @@
-videojs.registerPlugin('pluginName', function(options) {
+videojs.registerPlugin('brightcoveDownload', function(options) {
 // Create variables and new div, anchor and image for download icon
   var myPlayer = this,
     videoName,
