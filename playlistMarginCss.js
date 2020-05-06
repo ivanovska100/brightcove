@@ -17,8 +17,8 @@ videojs.registerPlugin('brightcoveDownload', function(options) {
                                 {
                                     var titleHeight = playlistItems[i]
                                         .getElementsByClassName('vjs-playlist-title-container')[0]
-                                        .clientHeight;
-                                    playlistItems[i].style.marginBottom = titleHeight;
+                                        .scrollHeight;
+                                    playlistItems[i].style.marginBottom = titleHeight + 'px';
                                     i++;
                                 }
 });
