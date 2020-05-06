@@ -20,7 +20,7 @@ videojs.registerPlugin('brightcoveDownload', function(options) {
                                         .clientHeight;
                                     playlistItems[i].style.marginBottom = titleHeight;
                                     i++;
-                                }}
+                                }
 });
 
 });
