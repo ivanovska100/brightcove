@@ -1,5 +1,4 @@
 videojs.registerPlugin('playlistItemMargin', function(options) {
-// Create variables and new div, anchor and image for download icon
   var myPlayer = this;
 
 	myPlayer.on("loadstart", function() {
@@ -15,7 +14,7 @@ videojs.registerPlugin('playlistItemMargin', function(options) {
                                     i++;
                                 }
 	var videoThumbnails = document.getElementsByClassName('vjs-playlist-thumbnail');
-							   var numberOfvideoThumbnails = playlistItems.length;
+							   var numberOfvideoThumbnails = videoThumbnails.length;
                                var j = 0;
                                while (j<numberOfvideoThumbnails)
                                {                                 
