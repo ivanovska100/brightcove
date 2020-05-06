@@ -20,13 +20,25 @@ videojs.registerPlugin('playlistItemMargin', function(options) {
                                while (j<numberOfvideoThumbnails)
                                {                                 
                                     videoThumbnails[j].addEventListener("mouseover", function(e) {
-									videoThumbnails[j].classList.add("vjs-icon-play");
+									videoThumbnails[j].addClass("vjs-icon-play");
 									});
 									videoThumbnails[j].addEventListener("mouseout", function(e) {
-									videoThumbnails[j].classList.remove("vjs-icon-play");
+									videoThumbnails[j].removeClass("vjs-icon-play");
 									});
                                     j++;
                                }
 });
 
 });
+
+function addClass(el, className) {
+  var classString = el.className;
+  var newClass = classString.concat(' ' + className);
+  el.className = newClass;
+}
+
+function removeClass(el, className) {
+  var classString = el.className;
+  var newClass = classString.replace(' ' + className, '');
+  el.className = newClass;
+}
