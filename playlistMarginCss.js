@@ -13,7 +13,12 @@ videojs.registerPlugin('playlistItemMargin', function(options) {
                                     playlistItems[i].style.marginBottom = titleHeight + 'px';
                                     i++;
                                 }
-	var videoThumbnails = document.getElementsByClassName('vjs-playlist-thumbnail');
+								
+								$(".vjs-playlist-thumbnail").hover(function(){
+								$(".vjs-playlist-thumbnail").toggleClass("vjs-icon-play");  //Toggle the active class to the area is hovered
+  });
+								
+	/* var videoThumbnails = document.getElementsByClassName('vjs-playlist-thumbnail');
 							   var numberOfvideoThumbnails = videoThumbnails.length;
                                var j = 0;
                                while (j<numberOfvideoThumbnails-1)
@@ -30,7 +35,7 @@ videojs.registerPlugin('playlistItemMargin', function(options) {
 										videoThumbnails[j].className = newClass;
 									});
                                     j++;
-                               }
+                               } */
 });
 
 });
