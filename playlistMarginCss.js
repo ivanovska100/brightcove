@@ -5,7 +5,7 @@ videojs.registerPlugin('playlistItemMargin', function(options) {
 	var playlistItems = document.getElementsByClassName('vjs-playlist-item');
                                 var numberOfItems = playlistItems.length;
                                 var i = 0;
-                                while (i<numberOfItems)
+                                while (i<numberOfItems-1)
                                 {
                                     var titleHeight = playlistItems[i]
                                         .getElementsByClassName('vjs-playlist-title-container')[0]
@@ -16,7 +16,7 @@ videojs.registerPlugin('playlistItemMargin', function(options) {
 	var videoThumbnails = document.getElementsByClassName('vjs-playlist-thumbnail');
 							   var numberOfvideoThumbnails = videoThumbnails.length;
                                var j = 0;
-                               while (j<numberOfvideoThumbnails)
+                               while (j<numberOfvideoThumbnails-1)
                                {                                 
                                     videoThumbnails[j].addEventListener("mouseover", function(e) {
 										var classString = videoThumbnails[j].className;
@@ -34,15 +34,3 @@ videojs.registerPlugin('playlistItemMargin', function(options) {
 });
 
 });
-
-function addClass(className) {
-  var classString = this.className;
-  var newClass = classString.concat(' ' + className);
-  this.className = newClass;
-}
-
-function removeClass(className) {
-  var classString = this.className;
-  var newClass = classString.replace(' ' + className, '');
-  this.className = newClass;
-}
