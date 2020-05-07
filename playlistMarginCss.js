@@ -15,7 +15,7 @@ videojs.registerPlugin('playlistItemMargin', function(options) {
                                 }
 								
 								$(".vjs-playlist-thumbnail").hover(function(){
-								$(".vjs-playlist-thumbnail").toggleClass("vjs-icon-play");  //Toggle the active class to the area is hovered
+								$this.toggleClass("vjs-icon-play");
   });
 								
 	/* var videoThumbnails = document.getElementsByClassName('vjs-playlist-thumbnail');
