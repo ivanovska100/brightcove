@@ -19,10 +19,10 @@ videojs.registerPlugin('playlistItemMargin', function(options) {
                                while (j<numberOfvideoThumbnails)
                                {                                 
                                     videoThumbnails[j].addEventListener("mouseover", function(e) {
-									videoThumbnails[j].addClass("vjs-icon-play");
+									addClass("vjs-icon-play");
 									});
 									videoThumbnails[j].addEventListener("mouseout", function(e) {
-									videoThumbnails[j].removeClass("vjs-icon-play");
+									removeClass("vjs-icon-play");
 									});
                                     j++;
                                }
