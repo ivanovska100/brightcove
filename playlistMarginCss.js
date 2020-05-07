@@ -19,10 +19,10 @@ videojs.registerPlugin('playlistItemMargin', function(options) {
                                while (j<numberOfvideoThumbnails)
                                {                                 
                                     videoThumbnails[j].addEventListener("mouseover", function(e) {
-									addClass(videoThumbnails[j],"vjs-icon-play");
+									videoThumbnails[j].addClass("vjs-icon-play");
 									});
 									videoThumbnails[j].addEventListener("mouseout", function(e) {
-									removeClass(videoThumbnails[j],"vjs-icon-play");
+									videoThumbnails[j].removeClass("vjs-icon-play");
 									});
                                     j++;
                                }
@@ -30,14 +30,14 @@ videojs.registerPlugin('playlistItemMargin', function(options) {
 
 });
 
-function addClass(el, className) {
-  var classString = el.className;
+function addClass(className) {
+  var classString = this.className;
   var newClass = classString.concat(' ' + className);
-  el.className = newClass;
+  this.className = newClass;
 }
 
-function removeClass(el, className) {
-  var classString = el.className;
+function removeClass(className) {
+  var classString = this.className;
   var newClass = classString.replace(' ' + className, '');
-  el.className = newClass;
+  this.className = newClass;
 }
