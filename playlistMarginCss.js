@@ -14,8 +14,8 @@ videojs.registerPlugin('playlistItemMargin', function(options) {
                                     i++;
                                 }
 								
-								$(".vjs-playlist-item").hover(function(){
-								$(this).children(":first").toggleClass("vjs-icon-play");
+								$(".vjs-playlist-thumbnail").hover(function(){
+								$(this).toggleClass("vjs-icon-play");
 								});
 								
 								$(".vjs-playlist-thumbnail").click(function(){
