@@ -22,6 +22,10 @@ videojs.registerPlugin('playlistItemMargin', function(options) {
 								$(this).removeClass("vjs-icon-play");
 								});
 								
+								$(".vjs-playlist-now-playing-text").click(function(){
+								$(this).parent.removeClass("vjs-icon-play");
+								});
+								
 	/* var videoThumbnails = document.getElementsByClassName('vjs-playlist-thumbnail');
 							   var numberOfvideoThumbnails = videoThumbnails.length;
                                var j = 0;
