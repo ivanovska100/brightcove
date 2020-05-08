@@ -16,10 +16,11 @@ videojs.registerPlugin('playlistItemMargin', function(options) {
 								
 								$(".vjs-playlist-thumbnail").hover(function(){
 								$(this).toggleClass("vjs-icon-play");
+								});
 								
 								$(".vjs-playlist-thumbnail").click(function(){
 								$(this).removeClass("vjs-icon-play");
-  });
+								});
 								
 	/* var videoThumbnails = document.getElementsByClassName('vjs-playlist-thumbnail');
 							   var numberOfvideoThumbnails = videoThumbnails.length;
