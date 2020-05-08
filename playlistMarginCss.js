@@ -14,17 +14,25 @@ videojs.registerPlugin('playlistItemMargin', function(options) {
                                     i++;
                                 }
 								
-								$(".vjs-playlist-thumbnail").hover(function(){
+								$(".vjs-playlist-thumbnail").hover(function () {
+										$(this).addClass("vjs-icon-play");
+										}, 
+									function () {
+										$(this).removeClass("vjs-icon-play");
+										}
+								);
+								
+							/* 	$(".vjs-playlist-thumbnail").hover(function(){
 								$(this).toggleClass("vjs-icon-play");
-								});
+								}); */
 								
 								$(".vjs-playlist-thumbnail").click(function(){
 								$(this).removeClass("vjs-icon-play");
 								});
 								
-								/* $(".vjs-playlist-thumbnail").mouseout(function(){
+								$(".vjs-playlist-thumbnail").mouseout(function(){
 								$(this).removeClass("vjs-icon-play");
-								}); */
+								});
 								
 								$(".vjs-playlist-now-playing-text").click(function(){
 								$(this.parentElement).removeClass("vjs-icon-play");
