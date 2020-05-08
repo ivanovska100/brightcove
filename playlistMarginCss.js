@@ -23,7 +23,7 @@ videojs.registerPlugin('playlistItemMargin', function(options) {
 								});
 								
 								$(".vjs-playlist-now-playing-text").click(function(){
-								$(this).parentElement.className.removeClass("vjs-icon-play");
+								$(this).parentElement.removeClass("vjs-icon-play");
 								});
 								
 	/* var videoThumbnails = document.getElementsByClassName('vjs-playlist-thumbnail');
