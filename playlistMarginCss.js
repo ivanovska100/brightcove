@@ -30,7 +30,7 @@ videojs.registerPlugin('playlistItemMargin', function(options) {
 								$(this).removeClass("vjs-icon-play");
 								});
 								
-								$(".vjs-playlist-thumbnail").mouseout(function(){
+								$(".vjs-playlist-thumbnail").mouseleave(function(){
 								$(this).removeClass("vjs-icon-play");
 								});
 								
