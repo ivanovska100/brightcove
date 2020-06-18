@@ -13,8 +13,8 @@ videojs.registerPlugin('audio', function(options) {
       //backgroundColor: "#FF0",
       //color: "#00F",
       //fontFamily: "monospaceSansSerif",
-      fontPercent: 4.0,
-      windowColor: "#0FF",
+      fontPercent: 5.0,
+      //windowColor: "#0FF",
       windowOpacity: "0.5"
     }) ;
 });
