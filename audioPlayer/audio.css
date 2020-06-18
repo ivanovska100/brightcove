@@ -1,0 +1,42 @@
+/* .vjs-control-bar {
+    transform: none;
+    background-color: transparent;
+} */
+video-js#vjs_video_3 {
+    height: 100px;
+}
+.video-js.vjs-mouse .vjs-big-play-button {
+    background: none;
+}
+.vjs-dock-text {
+    border-radius: 1em 1em 0 0;
+}
+.video-js .vjs-tech {
+	display:none;
+}
+button.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
+    display: none;
+}
+/*
+ * Styles essential to the sample
+ * are below
+ */
+/* Transition the captions down vertically when user is not hovering over the player */
+.video-js.not-hover.vjs-has-started.vjs-paused.vjs-user-active .vjs-text-track-display,
+.video-js.not-hover.vjs-has-started.vjs-paused.vjs-user-inactive .vjs-text-track-display,
+.video-js.not-hover.vjs-has-started.vjs-playing.vjs-user-active .vjs-text-track-display,
+.video-js.not-hover.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-text-track-display,
+.video-js.vjs-has-started.vjs-paused.vjs-ad-playing.vjs-user-inactive .vjs-text-track-display,
+.video-js.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-text-track-display,
+.video-js.vjs-ended .vjs-text-track-display{
+  transform: translateY(2em);
+  -ms-transform: translateY(2em);
+  -webkit-transform: translateY(2em);
+  -moz-transform: translateY(2em);
+  transition: transform .5s ease 0s;
+}
+/* Transition the captions vertically above the control bar */
+.video-js .vjs-text-track-display{
+  bottom: 2em!important;
+  transition: transform .5s ease 0s;   
+}
