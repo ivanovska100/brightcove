@@ -3,7 +3,7 @@
     background-color: transparent;
 } */
 video-js#vjs_video_3 {
-    height: 100px;
+    height: 180px;
 }
 .video-js.vjs-mouse .vjs-big-play-button {
     background: none;
@@ -39,4 +39,7 @@ button.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
 .video-js .vjs-text-track-display{
   bottom: 2em!important;
   transition: transform .5s ease 0s;   
+}
+.vjs-text-track-cue{
+	font-size:16px;
 }
