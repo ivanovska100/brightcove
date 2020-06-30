@@ -1,7 +1,3 @@
-/* .vjs-control-bar {
-    transform: none;
-    background-color: transparent;
-} */
 video-js#vjs_video_3 {
     height: 180px;
 }
@@ -17,10 +13,7 @@ video-js#vjs_video_3 {
 button.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
     display: none;
 }
-/*
- * Styles essential to the sample
- * are below
- */
+
 /* Transition the captions down vertically when user is not hovering over the player */
 .video-js.not-hover.vjs-has-started.vjs-paused.vjs-user-active .vjs-text-track-display,
 .video-js.not-hover.vjs-has-started.vjs-paused.vjs-user-inactive .vjs-text-track-display,
