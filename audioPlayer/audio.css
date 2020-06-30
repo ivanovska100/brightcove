@@ -46,3 +46,6 @@ button.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
 iframe {
     height: auto !important;
 }
+.bc-player-FCrZ8iSu3v_default.vjs-fluid, .bc-player-FCrZ8iSu3v_default.vjs-fluid.vjs-16-9 {
+    padding-top: 0 !important;
+}
