@@ -43,3 +43,6 @@ button.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
 .vjs-text-track-cue{
 	font-size:16px;
 }
+iframe {
+    height: auto !important;
+}
