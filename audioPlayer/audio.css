@@ -49,3 +49,6 @@ iframe {
 .bc-player-FCrZ8iSu3v_default.vjs-fluid, .bc-player-FCrZ8iSu3v_default.vjs-fluid.vjs-16-9 {
     padding-top: 0 !important;
 }
+video-js#vjs_video_3 {
+    padding-top: 0px !important;
+}
