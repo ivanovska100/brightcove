@@ -42,3 +42,15 @@ iframe {
 video-js#vjs_video_3 {
     padding-top: 0px !important;
 }
+.vjs-volume-control.vjs-control.vjs-volume-horizontal {
+	display:block;
+}
+.vjs-current-time.vjs-time-control.vjs-control {
+	display:block;
+}
+.vjs-time-control.vjs-time-divider {
+	display:block;
+}
+.vjs-duration.vjs-time-control.vjs-control {
+	display:block;
+}
