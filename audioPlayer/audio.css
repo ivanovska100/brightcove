@@ -2,7 +2,7 @@ video-js#vjs_video_3 {
     height: 180px;
 }
 .video-js.vjs-mouse .vjs-big-play-button {
-    background: none;
+    background: rgb(255, 119, 19,70%);
 }
 .vjs-dock-text {
     border-radius: 1em 1em 0 0;
@@ -38,9 +38,6 @@ button.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
 }
 iframe {
     height: auto !important;
-}
-.bc-player-FCrZ8iSu3v_default.vjs-fluid, .bc-player-FCrZ8iSu3v_default.vjs-fluid.vjs-16-9 {
-    padding-top: 0 !important;
 }
 video-js#vjs_video_3 {
     padding-top: 0px !important;
