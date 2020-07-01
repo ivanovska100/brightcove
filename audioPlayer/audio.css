@@ -1,15 +1,19 @@
 video-js#vjs_video_3 {
     height: 180px;
 }
+
 .video-js.vjs-mouse .vjs-big-play-button {
-    background: rgb(255, 119, 19,70%);
+    background-color: rgba(255, 119, 19, 0.7);
 }
+
 .vjs-dock-text {
     border-radius: 1em 1em 0 0;
 }
+
 .video-js .vjs-tech {
-	display:none;
+    display: none;
 }
+
 button.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
     display: none;
 }
@@ -21,36 +25,43 @@ button.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
 .video-js.not-hover.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-text-track-display,
 .video-js.vjs-has-started.vjs-paused.vjs-ad-playing.vjs-user-inactive .vjs-text-track-display,
 .video-js.vjs-has-started.vjs-playing.vjs-user-inactive .vjs-text-track-display,
-.video-js.vjs-ended .vjs-text-track-display{
-  transform: translateY(2em);
-  -ms-transform: translateY(2em);
-  -webkit-transform: translateY(2em);
-  -moz-transform: translateY(2em);
-  transition: transform .5s ease 0s;
+.video-js.vjs-ended .vjs-text-track-display {
+    transform: translateY(2em);
+    -ms-transform: translateY(2em);
+    -webkit-transform: translateY(2em);
+    -moz-transform: translateY(2em);
+    transition: transform .5s ease 0s;
 }
 /* Transition the captions vertically above the control bar */
-.video-js .vjs-text-track-display{
-  bottom: 2em!important;
-  transition: transform .5s ease 0s;   
+.video-js .vjs-text-track-display {
+    bottom: 2em !important;
+    transition: transform .5s ease 0s;
 }
-.vjs-text-track-cue{
-	font-size:16px;
+
+.vjs-text-track-cue {
+    font-size: 16px;
 }
+
 iframe {
     height: auto !important;
 }
+
 video-js#vjs_video_3 {
-    padding-top: 0px !important;
+    padding-top: 0 !important;
 }
+
 .vjs-volume-control.vjs-control.vjs-volume-horizontal {
-	display:block;
+    display: block;
 }
+
 .vjs-current-time.vjs-time-control.vjs-control {
-	display:block;
+    display: block;
 }
+
 .vjs-time-control.vjs-time-divider {
-	display:block;
+    display: block;
 }
+
 .vjs-duration.vjs-time-control.vjs-control {
-	display:block;
+    display: block;
 }
