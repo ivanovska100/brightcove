@@ -66,5 +66,5 @@ video-js#vjs_video_3 {
     display: block;
 }
 .vjs-has-started .vjs-poster {
-    display: inline-block !important;
+    display: inline-block;
 }
