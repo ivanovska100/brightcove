@@ -65,6 +65,6 @@ video-js#vjs_video_3 {
 .vjs-duration.vjs-time-control.vjs-control {
     display: block;
 }
-.vjs-poster {
-    display: inline-block;
+.vjs-has-started .vjs-poster {
+    display: inline-block !important;
 }
